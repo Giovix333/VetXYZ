@@ -7,87 +7,238 @@
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Agrega aquí tus enlaces a los archivos CSS -->
 </head>
 <body>
-    <div class="seccion1">
+    <nav class="navbar">
+        <ul>
+            <li><a >Inicio</a></li>
+            <li><a >Lo que ofrecemos</a></li>
+            <li><a >Tratamiento</a></li>
+            <li><a >Hospitalización</a></li>
+            <li><a >Doctores</a></li>
+            <li><a >Preguntas frecuentes</a></li>
+        </ul>
+    </nav>
+    
     <header>
-        <div class="haeder-content">
-            <div class="header-content-inner">
-                <hr class="l1">
-                <a class="ubi">
-                    <h1 class="u1">Ubicación:</h1>
-                    <h2 class="---">------------</h2>
-                </a>
-                <a class="contac">
-                    <h1 class="con">Contacto:</h1>
-                    <h2 class="num">+52 123 456 789</h2>
-                </a>
-                <a class="correo">
-                    <h1 class="cr">Correo:</h1>
-                    <h2 class="vet">veterinariaXYZ@gmail.com</h2>
-                </a>         
-                <hr class="l1">   
+        <h1 class="tit">VeterinariaXYZ</h1>
+        <div>
+            <div class="inf">
+                <div class="ubic">
+                    <li><a >VeterinariaXYZ</a></li>
+                </div>
+                <div class="ubic">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <li><a >Ubicación: ---</a></li>
+                </div>
+                <div class="cont">
+                    <i class="fa-solid fa-phone"></i>
+                    <li><a >Contacto:+52 123 456 789</a></li>
+                </div>
+                <div class="coor">
+                    <li><a >Correo: veterinariaXYZ@gmail.com</a></li>
+                </div>           
+            
             </div>
+            <hr>
+            
         </div>
     </header>
-    <!--Inico del nav-->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix">
-        <div id="navBar" class="navbar navbar-default navvar-fixed-top affix-top"> 
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                         
-                        <li>
-                            <a href="" class="a1">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="">Lo que ofrecemos</a>
-                        </li>
-                        <li>
-                            <a href="">Tratamiento</a>
-                        </li>
-                        <li>
-                            <a href="">Procedimientos</a>
-                        </li>
-                        <li>
-                            <a href="">Hospitalización</a>
-                        </li>
-                        <li>
-                            <a href="">Doctores</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </div>
-        </div> 
-    </nav> 
-    <!--Fin del nav-->
-    <!--Inicio del Main-->
-    <main>
-        <section>
+    <div class="content">
+        <div class="row2">
+            <button class="btn1">Agenda cita</button>
+        <button class="btn2">Consultar precios</button>
+        </div>
+        <section class="sec1">
             
-            <button class="btn1" id="Agenda">Agendar una cita</button>
-            <button class="btn2" id="precios">Consultar precios</button>
+            
+            <div class="row1">
+                <h2 class="bienv">Bienvenido a la veterinaria XYZ, que cuida de tu mejor amigo.</h2>
+            <p class="relleno1">Nuestra misión es proporcionar un control y optimización mejorados para las consultas médicas en nuestra clínica veterinaria.</p>
+            </div>
+            <div class="imagerow">
+                 <!-- Agrega aquí el código para la imagen -->
+            <img class="image1" src="./CSS/Images/image1.png" alt="Imagen veterinaria">
+            </div>
+           
+            
+        </section>
+        <div class="row3">
+            <button class="btn3">Iniciar sesión</button>
+            <button class="btn4">Registrarse</button>
+           </div>
+    </div>
+    
+    <section class="sec2">
+        <h1>
+            Lo que ofrecemos.
+        </h1>
+        <img src="./CSS/Images/image2.png" alt="">
+        <div class="img-derecha">
+            <img src="./CSS/Images/image5.png" alt="">
+        </div>
+        <div class="item_izq">
+            <p>
+                Exámenes y análisis diagnósticos.
+            </p>
+        </div>
+        <div class="item_izq">
+            <p>
+                Cuidado médico veterinario.
+            </p>
+        </div>
+        <div class="item_izq">
+            <p>
+                Cirugías y procedimientos.
+            </p>
+        </div>
+        <div class="item_izq">
+            <p>
+                Cuidado dental.
+            </p>
+        </div>
+        <div class="item_izq">
+            <p>
+                Servicios de emergencia.
+            </p>
+        </div>
 
-            <h3 class="tit">
-                Bienvenido a la veterinaria XYZ, que cuida de tu mejor amigo.
-            </h3>
+    </section>
+    <section class="sec3">
+        <h1>
+            Tratamiento.
+        </h1>
+        <img src="./CSS/Images/image2.png" alt="">
+        <p>
+            En nuestra clínica veterinaria, entendemos la importancia de brindar tratamientos efectivos y adecuados para el bienestar de tus mascotas. Nuestro equipo de médicos tratantes está capacitado para prescribir y administrar los tratamientos necesarios para abordar diversas condiciones médicas. 
+        </p>
+        
+        <img src="" alt=""> <!--Imagen3-->
+        <p>Curación de heridas.</p>
+        <img src="" alt=""><!--Imagen 4-->
+        <p>Revisión</p>
+    </section>
+    <section class="sec4">
+        <h1>
+            Procedimientos
+        </h1>
+        <img src="./CSS/Images/image2.png" alt="">
+        <p>
+            En ocasiones, es posible que las mascotas necesiten procedimientos médicos específicos para mejorar su salud o abordar problemas médicos. En nuestra clínica veterinaria, contamos con un equipo experimentado que realiza una variedad de procedimientos, desde curaciones y limpiezas dentales hasta cirugías de mayor envergadura. 
+        </p>
+        <div class="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+        <p>
+            Limpieza dental.
+        </p>
+        <p>
+            Cirugias.
+        </p>
 
-            <div class="relleno1">
-                <p class="rel1">Nuestra misión es proporcionar un control y optimización mejorados para las consultas médicas en nuestra clínica veterinaria.</p>
-                <div class="image1">
-                    <img src="./CSS/Images/image1.png" alt="">
+    </section>
+    <section class="sec5">
+        <h1>
+            Hospitalización
+        </h1>
+        <img src="" alt="">
+        <p>
+            En situaciones en las que la condición de tu mascota requiera cuidados intensivos y supervisión constante, ofrecemos servicios de hospitalización en nuestras instalaciones. Nuestro equipo médico brinda atención dedicada y especializada para garantizar el bienestar de tu mascota durante su estadía.
+        </p>
+        <div class="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+
+    </section>
+    <section class="doctors-section">
+        <div class="doctor-container white-bg">
+            <div class="doctor-info bone-bg">
+                <h3>Dra. Laura Méndez</h3>
+                <p>La Dra. Laura Méndez es una veterinaria apasionada y comprometida con el cuidado de los animales. Con más de 10 años de experiencia en medicina veterinaria, se especializa en medicina interna y cirugía. Su enfoque compasivo y su dedicación hacia cada paciente la convierten en una excelente opción para el cuidado de tu mascota. La Dra. Méndez se enorgullece de mantenerse actualizada con los avances más recientes en la industria veterinaria para brindar los mejores tratamientos y recomendaciones a sus pacientes.</p>   
+            </div>
+            <div class="doctor-image">
+                <img src="./CSS/Images/doc1.png" alt="Doctora 1">
+            </div>
+        </div>
+    
+        <div class="doctor-container white-bg">
+            <div class="doctor-info bone-bg">
+                <h3>Dr. Carlos Rodriguez</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur rem eveniet tempora est at dicta id obcaecati omnis molestiae beatae quae quos aut labore, error praesentium reprehenderit! Praesentium, vero quisquam.</p>
+                </div>
+            <div class="doctor-image">
+                <img src="./CSS/Images/doc2.jpg" alt="Doctora 2">
+            </div>
+        </div>
+    
+        <div class="doctor-container white-bg">
+            <div class="doctor-info bone-bg">
+                <h3>Dra. Ana Sánchez</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, sit fuga? Praesentium aliquam autem rem, impedit amet accusantium, animi maxime adipisci sequi fugiat libero pariatur ullam ab laborum quibusdam officia!</p>
+                
+            </div>
+            <div class="doctor-image">
+                <img src="./CSS/Images/doc4.jpg" alt="Doctor 3">
+            </div>
+        </div>
+
+        <div class="doctor-container white-bg">
+            <div class="doctor-info bone-bg">
+                <h3>Dr. Alejandro Gómez</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, obcaecati! Sint sunt quae, molestias sequi consequatur repellat veniam eos provident, hic amet inventore blanditiis quia sapiente numquam soluta eveniet nemo?</p>
+                </div>
+            <div class="doctor-image">
+                <img src="./CSS/Images/doc3.jpg" alt="Doctor 3">
+            </div>
+        </div>
+    </section>
+    
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 class="question">1.¿Cuáles son los servicios veterinarios que ofrecen en su clínica?</h3>
+                <div class="answer">
+                    <p>Respuesta 1</p>
                 </div>
             </div>
-
-            <button class="btn3" id="Inicar sesión">Inicar Sesión</button>
-            <button class="btn4" id="Registro">Registrarse</button>    
-
-        </section>
-        
-    </main>
-    <!--Fin del Main-->
+            <div class="faq-item">
+                <h3 class="question">2.¿Cuál es la experiencia y especialización de sus veterinarios?</h3>
+                <div class="answer">
+                    <p>Respuesta 2</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">3.¿Cuáles son los horarios de atención y cómo puedo programar una cita?</h3>
+                <div class="answer">
+                    <p>Respuesta 3</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">4.¿Qué protocolos de seguridad implementan para garantizar el bienestar de las mascotas</h3>
+                <div class="answer">
+                    <p>Respuesta 4</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">5.¿Tienen acceso a servicios de emergencia fuera del horario de atención regular?</h3>
+                <div class="answer">
+                    <p>Respuesta 5</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">6.¿Cuál es el programa de vacunación recomendado para mi mascota?</h3>
+                <div class="answer">
+                    <p>Respuesta 6</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <!-- Agrega aquí tus scripts si es necesario -->
 </body>
-</html> 
+</html>
