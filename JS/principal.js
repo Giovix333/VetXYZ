@@ -1,3 +1,4 @@
+
 // Almacenamos los elementos de los contenedores de los doctores en un arreglo
 var doctorContainers = [
     document.querySelector('.doctor-container1'),

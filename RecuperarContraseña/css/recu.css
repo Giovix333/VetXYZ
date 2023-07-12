@@ -1,0 +1,339 @@
+/*Registrar*/
+body {
+    background: #B6F2F2;
+    align-items: center;
+}
+
+.image-13 {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.recu {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 51.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -57.6px;
+    margin-bottom: 18.4px;
+}
+
+.container-bco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 875.2px;
+    height: 812px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    border-color: transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+}
+
+.input-email {
+    width: 805.6px;
+    height: 61.6px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #EAF7F8;
+    border-color: transparent;
+    font-family: "Inter";
+    font-weight: 560ox;
+    font-size: 28px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input-email {
+    width: 588px;
+    height: 61.6px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #EAF7F8;
+    border-color: transparent;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.btn-iniciar {
+    border-radius: 48px;
+    background: #FECD44;
+    font-family: "Inter";
+    font-size: 16px;
+    border-color: transparent;
+    width: 257.6px;
+    height: 68px;
+    flex-shrink: 0;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.btn-iniciar:hover {
+    border-radius: 48px;
+    background: rgba(254, 205, 68, 0.47);
+}
+
+.image-7 {
+    position: absolute;
+    flex-shrink: 0;
+    z-index: 1000;
+    margin-top: -220px;
+    background-attachment: fixed;
+    transform: translate(20%, 0%);
+}
+
+.image-14 {
+    position: absolute;
+    flex-shrink: 0;
+    z-index: 1000;
+    margin-top: -220px;
+    background-attachment: fixed;
+    transform: translate(178%, -31%);
+}
+
+/*Iniciar Sesión*/
+
+.iniSes {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 51.2px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    margin-top: -57.6px;
+    margin-bottom: 18.4px;
+}
+
+.container-bco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 875.2px;
+    height: 639.2px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    border-color: transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.olv {
+    color: #000;
+    font-family: Inter;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 320;
+    line-height: normal;
+}
+
+.olv:hover {
+    text-decoration: underline;
+}
+
+/*Precios*/
+
+.precios {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: center;
+    font-family: Inter;
+    font-size: 51.2px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    margin-top: -57.6px;
+    margin-bottom: 18.4px;
+}
+
+.container-bco3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1203.2px;
+    height: 744px;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #FFF;
+    border-color: transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.costServ {
+    display: flex;
+    margin-left: 64.8px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+}
+
+.linea1 {
+    width: 1102.4px;
+    height: 1.6px;
+    background: #000;
+    align-self: center;
+}
+
+.conce {
+    display: flexbox;
+    white-space: nowrap;
+    flex-direction: row;
+    flex-shrink: 0;
+    color: #4C4949;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    margin-left: 155px;
+    box-sizing: content-box;
+}
+
+.cuota {
+    margin-left: 600px;
+    margin-top: -70px;
+}
+
+.conceptos {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    font-family: Inter;
+    font-size: 25.6px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    margin-left: 177.6px;
+}
+
+.linea2 {
+    width: 1092.8px;
+    height: .8px;
+    background: #000;
+    align-self: center;
+}
+
+.image-7 {
+    position: absolute;
+    flex-shrink: 0;
+    width: 500px;
+    height: 450px;
+    z-index: 1000;
+    margin-top: -85px;
+    margin-left: 27px;
+    background-attachment: fixed;
+    transform: rotate(0deg)
+}
+
+.image-14{
+    position: absolute;
+    flex-shrink: 0;
+    z-index: 1000;
+    width: 500px;
+    height: 450px;
+    margin-top: -325px;
+    margin-left: 885px;
+    background-attachment: fixed;
+    transform: rotate(175deg);
+}
+
+/*footer*/
+
+.futer {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #4C4949;
+    text-align: left;
+    font-family: Inter;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 560;
+    line-height: normal;
+    margin-left: 180px;
+}
+
+.tel {
+    margin-left: 460.8px;
+    margin-top: -65px;
+}
+
+.corr {
+    margin-left: 800px;
+    margin-top: -65px;
+}
+.text{
+    display: flex;
+
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+    width: 804px;
+    height: 134px;
+    
+
+    color: #4C4949;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -57.6px;
+    margin-bottom: 18.4px;
+}
