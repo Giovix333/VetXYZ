@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Document</title>
+    <title>Email de Recuperación</title>
     <link rel="stylesheet" href="./css/recu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./css/iconoV1.png" type="image/png">
 </head>
 <body>
-        <img src="./css/image1.png" alt="" class="image-13">
-        <p class="recu">Recuperar Contraseña</p>
+        <button onclick="goBack()" class="arrow-button">
+            <img  src="./css/image1.png" alt="" class="image-13">
+        </button>
+        <p class="recu">Email de Recuperación</p>
     <img src="./css/image2.png" alt="" class="image-7">
     <div class="container-bco2">
         <div class="text">
@@ -23,9 +26,10 @@
         </div>
     
         <div class="btn">
-            <button class="btn-iniciar">Siguiente</button>
+            <button class="btn-iniciar" onclick="window.location.href = '../nuevaContraseña/nuevaContraseña.html';">Siguiente</button>
         </div>
     </div>
     <img src="./css/image2.png" alt="" class="image-14">
+    <script src="./js/recu.js"></script>
 </body>
 </html>

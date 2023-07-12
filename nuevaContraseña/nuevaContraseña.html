@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Nueva contraseña - Veterinaria XYZ</title>
+    <link rel="stylesheet" href="./css/recu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+<link rel="icon" href="../CSS/Images/iconoV1.png" type="image/png">
+</head>
+<body>
+        <button onclick="goBack()" class="arrow-button">
+            <img  src="./css/image1.png" alt="" class="image-13">
+        </button>
+        <p class="recu">Nueva contraseña</p>
+    <div class="container-bco2">
+        <div class="text">
+            <p>Asegúrate de que tu contraseña tenga 8 caracteres o más. Intenta que incluya números, letras y signos de puntuación para que se auna CONTRASEÑA SEGURA.</p>
+        </div>
+        <div class="nuevaC">
+            <p>Nueva contraseña: </p>
+            <input type="password" class="input-pass" id="password">
+            <button class="toggle-password1" onclick="togglePasswordVisibility1('password')">Mostrar</button>
+        </div>
+        <div class="conf">
+            <p>Confirmar contraseña: </p>
+            <input type="password" class="input-pass" id="confirmPassword">
+            <button class="toggle-passwor2" onclick="togglePasswordVisibility2('confirmPassword')">Mostrar</button>
+        </div>
+    
+        <div class="btn">
+            <button class="btn-iniciar">Siguiente</button>
+        </div>
+    </div>
+    <script src="./js/recu.js"></script>
+</body>
+</html>

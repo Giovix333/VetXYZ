@@ -1,0 +1,395 @@
+:root{
+    --color-active: #1ddada;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b6f2f2;
+    width: 1000px;
+    height: 1850px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+h1{
+  margin-left: 250px;
+  color: #4c4949;
+  text-align: center;
+  font: 600 50px "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 10px;
+  width: 614px;
+  height: 47px;
+}
+
+#titulo{
+    text-align: center;
+    
+}
+
+.fondoblanco{
+    background-color: #fff;
+    width: 1136px;
+    height: 1750px;
+    border-radius: 60px;
+    position: absolute;
+    align-content: center;
+    left: 143px;
+    top: 141px;
+    margin-left: 300px;
+}
+
+#p1{
+  color: #038ba6;
+  text-align: left;
+  font: 700 35px "Inter", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  width: 1415px;
+  height: 79px;
+}
+
+#p2{
+    color: #4c4949;
+  text-align: left;
+  font: 700 25px "Inter", sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 85px;
+  width: 1045px;
+  height: 164px;
+}
+
+#linea{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 1136px;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 205px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+}
+
+#linea2{
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    width: 1136px;
+    height: 0px;
+    position: absolute;
+    left: 30px;
+    top: 205px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+#nombremascota{
+    color: #4c4949;
+    text-align: center;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 225px;
+    width: 280px;
+    height: 56px;
+   
+}
+
+#nombremascota1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#edad{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 930px;
+    top: 225px;
+    width: 280px;
+    height: 56px;
+   
+}
+
+#edad1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#tamaño{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 365px;
+    width: 150px;
+    height: 56px;
+}
+
+
+
+
+.container-1{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 415px;
+    width: 350px;
+    height: 150px; 
+    background: #eaf7f8;
+    margin-bottom: 20px;
+    justify-content: space-around;   
+}
+
+#especie{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 225px;
+    width: 150px;
+    height: 56px;
+}
+
+
+
+
+.container-2{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 265px;
+    width: 350px;
+    height: 100px; 
+    background: #eaf7f8;
+    margin-bottom: 20px;
+    justify-content: space-around;   
+}
+
+#sexo{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 390px;
+    width: 150px;
+    height: 56px;
+}
+
+
+
+
+.container-3{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 500px;
+    top: 430px;
+    width: 350px;
+    height: 100px; 
+    background: #eaf7f8;
+    margin-bottom: 20px;
+    justify-content: space-around;   
+}
+
+#raza{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 600px;
+    width: 280px;
+    height: 56px;
+}
+
+#raza1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#propietario{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 740px;
+    width: 460px;
+    height: 56px;
+}
+
+#propietario1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 1070px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#email{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 30px;
+    top: 880px;
+    width: 280px;
+    height: 56px;
+}
+
+#email1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#telefono{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 600px;
+    top: 880px;
+    width: 400px;
+    height: 56px;
+}
+
+#telefono1{
+    background: #eaf7f8;
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+}
+
+#selfecha{
+    color: #4c4949;
+    text-align: left;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 1020px;
+    width: 700px;
+    height: 90px;
+}
+
+.fecha-button{
+    background: #eaf7f8;
+    border-radius: 60px;
+    width: 250px;
+    height: 50px;
+    
+    left: 0px;
+    top: 50px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+    background: #fecd44;
+}
+
+#coment{
+    color: #4c4949;
+    text-align: right;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 250px;
+    top: 1160px;
+    width: 460px;
+    height: 56px;
+}
+
+#coment1{
+    
+    background: #eaf7f8;
+    border-radius: 30px;
+    width: 1070px;
+    height: 300px;
+    position: absolute;
+    left: 30px;
+    top: 1210px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 1px 1px 1px;
+}
+
+#campos{
+    color: #4c4949;
+    text-align: center;
+    font: 700 25px "Inter", sans-serif;
+    position: absolute;
+    left: 185px;
+    top: 1580px;
+    width: 800px;
+    height: 56px;
+}
+
+.enviar-button{
+    background: #eaf7f8;
+    border-radius: 60px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 900px;
+    top: 1770px;
+    font: 700 25px "Inter", sans-serif;
+    color: #4c4949;
+    background: #fecd44;
+}

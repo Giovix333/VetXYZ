@@ -73,3 +73,45 @@ function validateForm() {
     // Realizar alguna acción adicional (enviar formulario, mostrar mensaje de éxito, etc.)
   }
   
+  /Ver contraseña/
+  function togglePasswordVisibility11(inputId) {
+    const passwordInput = document.getElementById(inputId);
+    const toggleButton = event.target;
+
+    if (passwordInput.type === "password") {
+        passwordInput.type = "text";
+        toggleButton.textContent = "Ocultar";
+    } else {
+        passwordInput.type = "password";
+        toggleButton.textContent = "Mostrar";
+    }
+}
+function togglePasswordVisibility22(inputId) {
+  const passwordInput = document.getElementById(inputId);
+  const toggleButton = event.target;
+
+  if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      toggleButton.textContent = "Ocultar";
+  } else {
+      passwordInput.type = "password";
+      toggleButton.textContent = "Mostrar";
+  }
+}
+
+function togglePasswordVisibility33(inputId) {
+  const passwordInput = document.getElementById(inputId);
+  const toggleButton = event.target;
+
+  if (passwordInput.type === "password") {
+      passwordInput.type = "text";
+      toggleButton.textContent = "Ocultar";
+  } else {
+      passwordInput.type = "password";
+      toggleButton.textContent = "Mostrar";
+  }
+}
+/*Regresar*/
+function goBack() {
+  window.history.back();
+} 

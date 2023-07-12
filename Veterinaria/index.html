@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="titulo">
+        <h1>Agendar cita</h1>
+    </div>
+    <div class="fondoblanco">
+        <p id="p1">¡Estamos listos para recibir a tu mascota!</p>
+        <p id="p2">Si desea reservar un espacio para solicitar alguno de nuestros servicios, por favor llene con sus
+            datos el siguiente formulario y uno de nuestros asesores se comunicara con usted por telefono
+            para confirmar la disponibilidad. 
+        </p>
+        <div id="linea"></div>
+        
+        <div id="nombremascota">
+            Nombre de la mascota*
+            <br>
+            <input id="nombremascota1" type="text">
+        </div>
+
+        <div id="edad">
+            Edad*
+            <br>
+            <input id="edad1" type="number">
+        </div>
+
+        <div id="tamaño">
+            Tamaño*
+        </div>
+        <div class="container-1">
+            Seleccione una opción
+            <div class="seltamaño">
+                <input type="radio" name="size" id="mini">
+                <label for="mini"> <span class="radio-button"></span> Mini </label>
+                
+            </div>
+
+            <div class="seltamaño">
+                <input type="radio" name="size" id="peq">
+                <label for="peq"> <span class="radio-button"></span> Pequeño </label>
+                
+            </div>
+
+            <div class="seltamaño">
+                <input type="radio" name="size" id="med">
+                <label for="med"> <span class="radio-button"></span> Mediano </label>
+                
+            </div>
+
+            <div class="seltamaño">
+                <input type="radio" name="size" id="gde">
+                <label for="gde"> <span class="radio-button"></span> Grande</label>
+                
+            </div>
+        </div>
+
+        <div id="especie">
+            Especie*
+        </div>
+
+        <div class="container-2">
+
+            Seleccione una opcion
+            <div class="selespecie">
+                <input type="radio" name="esp" id="dog">
+                <label for="dog"> <span class="radio-button"></span> Perro </label>
+                
+            </div>
+
+            <div class="selespecie">
+                <input type="radio" name="esp" id="cat">
+                <label for="cat"> <span class="radio-button"></span> Gato</label>
+                
+            </div>
+
+        </div>
+
+        <div id="sexo">
+            Sexo*
+        </div>
+
+        <div class="container-3">
+
+            Seleccione una opcion
+
+            <div class="selsexo">
+                <input type="radio" name="sex" id="m">
+                <label for="m"> <span class="radio-button"></span> Hembra</label>
+                
+            </div>
+
+            <div class="selsexo">
+                <input type="radio" name="sex" id="h">
+                <label for="h"> <span class="radio-button"></span> Macho </label>
+                
+            </div>
+
+        </div>
+
+        <div id="raza">
+            Raza*
+            <br>
+            <input id="raza1" type="text">
+        </div>
+
+        <div id="propietario">
+            Nombre del propietario responsable*
+            <br>
+            <input id="propietario1" type="text">
+        </div>
+        
+        <div id="email">
+            Correo*
+            <br>
+            <input id="email1" type="email">
+        </div>
+
+        <div id="telefono">
+            Telefono del propietario*
+            <br>
+            <input id="telefono1" type="number">
+        </div>
+
+        <div id="selfecha">
+            Selecciona una fecha*
+            
+            <button class="fecha-button"
+                style="margin-top: 1rem;" id="p1-button">
+                Seleccionar fecha
+            </button>
+        </div>
+
+        <div id="coment">
+            Comentarios adicionales*
+            <br>
+        </div>
+
+        <div id="coment2">
+            <input id="coment1" type="text">
+        </div>
+
+        <div id="campos">
+            *Todos los campos marcados son obligatorios
+        </div>
+
+        
+
+    </div>
+
+    <button class="enviar-button"
+    style="margin-top: 1rem;" id="p1-button">
+    Enviar
+    </button>
+</body>
+</html>
