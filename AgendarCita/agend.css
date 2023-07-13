@@ -405,6 +405,11 @@ h1{
     border-color: transparent;
 }
 
+.enviar-button:hover{
+    border-radius: 60px;
+  background: rgba(254, 205, 68, 0.47);
+}
+
 .image-button {
     background: none;
     border: none;
