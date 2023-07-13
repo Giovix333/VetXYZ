@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veterinaria</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Agendar cita - Veterinaria XYZ</title>
+    <link rel="stylesheet" type="text/css" href="agend.css">
+    <link rel="icon" href="iconoV1.png" type="image/jpeg">
+    
 </head>
 <body>
+    
     <div id="titulo">
         <h1>Agendar cita</h1>
     </div>
+    <button onclick="goBack()" class="arrow-button">
+        <img  src="image1.png" alt="" class="image-13">
+    </button>
     <div class="fondoblanco">
         <p id="p1">¡Estamos listos para recibir a tu mascota!</p>
         <p id="p2">Si desea reservar un espacio para solicitar alguno de nuestros servicios, por favor llene con sus
@@ -153,9 +159,9 @@
 
     </div>
 
-    <button class="enviar-button"
-    style="margin-top: 1rem;" id="p1-button">
+    <button class="enviar-button" onclick="window.location.href = '../ConfirmarCita/vetCitaConf.html'" style="margin-top: 1rem;" id="p1-button">
     Enviar
     </button>
+    <script src="boton.js"></script>
 </body>
 </html>
